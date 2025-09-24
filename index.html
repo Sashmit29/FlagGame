@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Flag Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/script.js" async></script>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    </head>
+    <body>
+        <audio id="audio" controls>
+            <source src="audioFiles/A_Kwela_Fella.mp3" type="audio/mpeg">
+        </audio>
+        <img id="background" src="backgroundImg/background.jpg" alt="American Flag Background">
+        <h1>Flag Matching Game</h1>
+        <div><u>Try your flag-matching skills in this exciting game!</u></div>
+        <h3>Instructions</h3>
+        <ol>
+            <li>
+                Select your level from the dropdown at the top-left corner of your screen. There are 5 levels: 
+                <ul>
+                    <li><b>Level 1:</b> 4 flags, 1 minute 40 seconds</li>
+                    <li><b>Level 2:</b> 5 flags, 1 minutes 40 seconds</li>
+                    <li><b>Level 3:</b> 6 flags, 1 minute 30 seconds</li>
+                    <li><b>Level 4:</b> 7 flags, 1 minute 10 seconds</li>
+                    <li><b>Level 5:</b> 8 flags, 40 seconds</li>
+                </ul>
+            </li>
+            <li>Click the Start Game button to confirm your level selection.</li>
+            <li>You will see flags appear in the Image Bank at the top of the screen and empty boxes with corresponding country names at the bottom of the screen. Drag and drop each flag to the country you think it belongs to.</li>
+            <li>Once you have matched each flag to a country, click the Submit button at the top-right corner of the screen.</li>
+            <li>Your results will appear on the screen! If you want to try your flag-matching skills again, click the Play Again button.</li>
+        </ol>
+        <h2>Click Play Now to begin!</h2>
+        <button id="start"><b>Play Now</b></button>
+        <div id="temp" class="flag"></div>
+    </body>
+</html>
